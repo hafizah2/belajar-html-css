@@ -1,0 +1,45 @@
+<style>a {
+    color: rgb(77, 155, 219);
+}
+
+.nike {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a:hover {
+    color: rgb(233, 64, 64);
+}
+
+
+.stock {
+    font-weight: bold;
+    color: rgb(22, 158, 22);
+}
+
+.c {
+    background-color: rgba(255, 216, 20);
+    height: 30px;
+    width: 107px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.c:hover {
+    background-color: rgb(221, 186, 13);
+    opacity: 0, 3;
+}
+
+.BN {
+    background-color: rgba(255, 164, 28);
+    height: 30px;
+    width: 107px;
+    border: none;
+    border-radius: 15px;
+
+
+
+}
+
+</style>

@@ -3,15 +3,171 @@
 
 <head>
     <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <style>
+        p {
+            font-family: Roboto, Arial;
+        }
+
         .thumbnail {
             width: 300px;
+        }
+
+        .talking-video {
+            margin-top: 0;
+            width: 200px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 540;
+            line-height: 20px;
+            margin-bottom: 9px;
+
+        }
+
+        .video-preview {
+            display: inline-block;
+            width: 300px;
+            margin-right: 12px;
+            vertical-align: top;
+        }
+
+        .search-bar {
+            display: block;
+        }
+
+        .profil-picture {
+            width: 35px;
+            border-radius: 50px;
+
+
+        }
+
+        .profil-div {
+            width: 50px;
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .talking-div {
+            display: inline-block;
+        }
+
+        .thumbnail-raw {
+            margin-bottom: 10px;
+        }
+
+        .marques {
+            font-size: 13px;
+            margin-top: 0;
+            margin-bottom: 3px;
+            color: gray;
+        }
+
+        .date-video {
+            font-size: 13px;
+            margin-top: 0;
+            margin-bottom: 0;
+            color: gray;
         }
     </style>
 </head>
 
 <body>
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+    <input class="search-bar" type="text" placeholder="Search">
+
+
+
+    <div class="video-preview">
+
+        <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        </div>
+        <div>
+
+            <div class="profil-div">
+                <img class="profil-picture" src="chanel-profile/channel-1.jpeg">
+            </div>
+            <div class="talking-div">
+                <p class="talking-video">
+
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+                <P class="marques">
+                    Marques Brownlee
+                </P>
+                <p class="date-video">
+                    3.4M views &#183; 6 months ago
+                </p>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <div class="video-preview">
+
+        <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        </div>
+        <div>
+
+            <div class="profil-div">
+                <img class="profil-picture" src="chanel-profile/channel-1.jpeg">
+            </div>
+            <div class="talking-div">
+                <p class="talking-video">
+
+                    Try Not To Laugh Challenge #9
+                </p>
+                <P class="marques">
+                    Markiplier
+                </P>
+                <p class="date-video">
+                    19M views &#183; 4 years ago
+                </p>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

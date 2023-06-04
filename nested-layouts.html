@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nested Layout Pratice</title>
+    <style>
+        .arial-font {
+            font-family: arial;
+        }
+
+        .inline-block {
+            display: inline-block;
+            border-style: groove;
+            padding: 10px;
+            border-color: rgba(218, 217, 217, 0.26);
+            border-width: 2px;
+            margin-bottom: 30px;
+            margin-right: 500px;
+        }
+
+        .inline-block2 {
+            display: inline-block;
+            border-style: groove;
+            padding: 10px;
+            border-color: rgba(218, 217, 217, 0.26);
+            border-width: 2px;
+            margin-bottom: 30px;
+            margin-right: 500px;
+            margin-bottom: 30px;
+        }
+
+        .panda-div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .oliver-div {
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+
+        .follow-div {
+            display: inline-block;
+            vertical-align: middle;
+
+        }
+
+        .panda-1 {
+            width: 200px;
+            width: 55px;
+            height: 55px;
+            object-fit: cover;
+            border-radius: 30px;
+
+        }
+
+        .oliver-txt {
+            margin: 0;
+            margin-right: 150px;
+            margin-left: 10px;
+            margin-bottom: 2px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .the-cat {
+            margin: 0;
+            margin-right: 150px;
+            margin-left: 10px;
+            margin-bottom: 2px;
+            color: rgb(172, 168, 168);
+            font-size: 15px;
+        }
+
+        .follow-btn {
+            background-color: rgba(94, 172, 245, 0.884);
+            border: none;
+            color: white;
+            padding: 9px;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .panda-blok {
+            margin-bottom: 10px;
+        }
+
+
+        .panda-div2 {
+            box-shadow: 0px 0px 5px rgb(190, 187, 187);
+            width: 430px;
+            padding: 7px;
+            border-radius: 5px;
+            margin-bottom: 50px;
+        }
+
+        .panda-p {
+            margin: 0px;
+        }
+
+        .panda-box {
+            display: inline-block;
+            width: 120px;
+            box-shadow: 0 0 2px rgb(180, 175, 175);
+            vertical-align: top;
+            margin-right: 13px;
+            margin-bottom: 100px;
+        }
+
+        .aang {
+            font-family: arial;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 3px;
+            margin-left: 5px;
+        }
+
+        .mutual {
+            font-family: arial;
+            font-size: 10px;
+            margin-top: 0;
+            margin-bottom: 6px;
+            color: gray;
+            margin-left: 0px;
+        }
+
+        .add {
+            background-color: rgb(4, 91, 252);
+            border: none;
+            color: white;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 11px;
+            margin-left: 5px;
+            margin-bottom: 6px;
+            border-radius: 3px;
+        }
+
+        .image-x {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            margin-right: 0px;
+        }
+
+        .small-pict {
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-left: 5px;
+
+
+        }
+
+        .smalp-div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="inline-block">
+        <div class="panda-div">
+            <img class="panda-1" src="thumbnails/615c371c61b81.jpg">
+
+        </div>
+        <div class="oliver-div">
+
+            <div>
+                <P class="oliver-txt , arial-font">
+                    panda
+                </P>
+            </div>
+            <div>
+                <P class="the-cat  arial-font">
+                    the panda
+                </P>
+            </div>
+            <div class="the-cat arial-font">
+                Popular
+            </div>
+
+        </div>
+        <div class="follow-div">
+            <button class="follow-btn">
+                Follow
+            </button>
+        </div>
+
+    </div>
+
+    <div class="inline-block2">
+        <div class="panda-blok">
+            <div>
+
+                <div class="panda-div">
+                    <img class="panda-1" src="thumbnails/615c371c61b81.jpg">
+
+                </div>
+                <div class="oliver-div">
+
+                    <div>
+                        <P class="oliver-txt , arial-font">
+                            panda
+                        </P>
+                    </div>
+                    <div>
+                        <P class="the-cat  arial-font">
+                            the panda
+                        </P>
+                    </div>
+                    <div class="the-cat arial-font">
+                        Popular
+                    </div>
+
+                </div>
+                <div class="follow-div">
+                    <button class="follow-btn">
+                        Follow
+                    </button>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="panda-blok">
+            <div>
+
+                <div class="panda-div">
+                    <img class="panda-1" src="thumbnails/6338f7ae58c05.jpg">
+
+                </div>
+                <div class="oliver-div">
+
+                    <div>
+                        <P class="oliver-txt , arial-font">
+                            Jengan
+                        </P>
+                    </div>
+                    <div>
+                        <P class="the-cat  arial-font">
+                            the panda
+                        </P>
+                    </div>
+                    <div class="the-cat arial-font">
+                        Popular
+                    </div>
+
+                </div>
+                <div class="follow-div">
+                    <button class="follow-btn">
+                        Follow
+                    </button>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div>
+            <div>
+
+                <div class="panda-div">
+                    <img class="panda-1" src="thumbnails/licensed-image.jpg">
+
+                </div>
+                <div class="oliver-div">
+
+                    <div>
+                        <P class="oliver-txt , arial-font">
+                            Aang
+                        </P>
+                    </div>
+                    <div>
+                        <P class="the-cat  arial-font">
+                            the panda
+                        </P>
+                    </div>
+                    <div class="the-cat arial-font">
+                        Popular
+                    </div>
+
+                </div>
+                <div class="follow-div">
+                    <button class="follow-btn">
+                        Follow
+                    </button>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div>
+
+
+        <div class="panda-box">
+            <div>
+                <img class="image-x" src="thumbnails/615c371c61b81.jpg">
+            </div>
+            <div>
+                <P class="aang">
+                    Aang
+                </P>
+            </div>
+            <div>
+                <div class="smalp-div">
+                    <img class="small-pict" src="thumbnails/615c371c61b81.jpg">
+                </div>
+                <div class="smalp-div">
+                    <P class="mutual">
+                        12 mutual friends
+                    </P>
+                </div>
+
+
+            </div>
+            <div>
+                <button class="add">
+                    Add Friend
+                </button>
+            </div>
+
+        </div>
+
+        <div class="panda-box">
+
+            <div>
+                <img class="image-x" src="thumbnails/licensed-image.jpg">
+            </div>
+            <div>
+                <P class="aang">
+                    Katara
+                </P>
+            </div>
+            <div>
+                <div class="smalp-div">
+                    <img class="small-pict" src="thumbnails/615c371c61b81.jpg">
+                </div>
+                <div class="smalp-div">
+                    <P class="mutual">
+                        12 mutual friends
+                    </P>
+                </div>
+
+
+            </div>
+            <div>
+                <button class="add">
+                    Add Friend
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="panda-box">
+            <div>
+                <img class="image-x" src="thumbnails/6338f7ae58c05.jpg">
+            </div>
+            <div>
+                <P class="aang">
+                    Jengan
+                </P>
+            </div>
+            <div>
+                <div class="smalp-div">
+                    <img class="small-pict" src="thumbnails/615c371c61b81.jpg">
+                </div>
+                <div class="smalp-div">
+                    <P class="mutual">
+                        12 mutual friends
+                    </P>
+                </div>
+
+
+            </div>
+            <div>
+                <button class="add">
+                    Add Friend
+                </button>
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

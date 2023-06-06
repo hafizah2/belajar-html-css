@@ -1,0 +1,86 @@
+.notif-block {
+    background-color: rgb(15, 103, 218);
+    color: white;
+    padding: 3px 7px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.page-font {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.messages-data {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+}
+
+.data-5 {
+    background-color: rgb(15, 103, 218);
+    color: white;
+    padding: 3px 7px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    margin-top: 0px;
+}
+
+.data-14 {
+    background-color: rgb(15, 103, 218);
+    color: white;
+    padding: 3px 7px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+
+}
+
+.profil-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.info-page {
+    width: 200px;
+    font-family: sans-serif;
+
+
+}
+
+.name-info {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 3px 0px;
+}
+
+.bio-info {
+    color: gray;
+    font-size: 13px;
+    margin: 3px 0px;
+}
+
+.popular-info {
+
+    color: gray;
+    font-size: 11px;
+    margin: 3px 0px;
+}
+
+.follow-btn {
+    background-color: rgb(94, 172, 245, 0.884);
+    color: white;
+    border: none;
+    padding: 6px 9px;
+    border-radius: 4px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Grid Practice</title>
+    <style>
+        .panda-box {
+            display: inline-block;
+            width: 120px;
+            box-shadow: 0 0 2px rgb(180, 175, 175);
+            vertical-align: top;
+            margin-right: 13px;
+            margin-bottom: 100px;
+        }
+
+        .aang {
+            font-family: arial;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 3px;
+            margin-left: 5px;
+        }
+
+        .mutual {
+            font-family: arial;
+            font-size: 10px;
+            margin-top: 0;
+            margin-bottom: 6px;
+            color: gray;
+            margin-left: 0px;
+        }
+
+        .add {
+            background-color: rgb(4, 91, 252);
+            border: none;
+            color: white;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 11px;
+            margin-left: 5px;
+            margin-bottom: 6px;
+            border-radius: 3px;
+        }
+
+        .image-x {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            margin-right: 0px;
+        }
+
+        .small-pict {
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-left: 5px;
+
+
+        }
+
+        .smalp-div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div style="
+        display: grid; 
+        grid-template-columns: 200px 75px;
+        margin-bottom: 20px;">
+
+        <div style="background-color: lightgreen;">200px</div>
+        <div style="background-color: lightsalmon;">75px</div>
+
+    </div>
+
+
+
+    <div style="
+        display: grid; 
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 30px;">
+
+        <div style="background-color: lightgreen;">col1</div>
+        <div style="background-color: lightsalmon;">col2</div>
+        <div style="background-color: lightgreen;">col3</div>
+
+
+    </div>
+
+    <div style="
+    display: grid; 
+    grid-template-columns: 75px 75px 75px 75px;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 50px;
+    ">
+
+        <div style="background-color: lightgreen;">col1</div>
+        <div style="background-color: lightsalmon;">col2</div>
+        <div style="background-color: lightgreen;">col3</div>
+
+        <div style="background-color: lightsalmon;">col1</div>
+        <div style="background-color: lightsalmon;">col2</div>
+        <div style="background-color: lightgreen;">col3</div>
+        <div style="background-color: lightsalmon;">col2</div>
+        <div style="background-color: lightgreen;">col3</div>
+
+    </div>
+
+    <div style="
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    column-gap: 15px;
+    display: inline-block;
+    align-items: center;
+    
+
+    ">
+
+
+        <div class="panda-box">
+            <div>
+                <img class="image-x" src="thumbnails/615c371c61b81.jpg">
+            </div>
+            <div>
+                <P class="aang">
+                    Aang
+                </P>
+            </div>
+            <div>
+                <div class="smalp-div">
+                    <img class="small-pict" src="thumbnails/615c371c61b81.jpg">
+                </div>
+                <div class="smalp-div">
+                    <P class="mutual">
+                        12 mutual friends
+                    </P>
+                </div>
+
+
+            </div>
+            <div>
+                <button class="add">
+                    Add Friend
+                </button>
+            </div>
+
+        </div>
+
+        <div class="panda-box">
+
+            <div>
+                <img class="image-x" src="thumbnails/licensed-image.jpg">
+            </div>
+            <div>
+                <P class="aang">
+                    Katara
+                </P>
+            </div>
+            <div>
+                <div class="smalp-div">
+                    <img class="small-pict" src="thumbnails/615c371c61b81.jpg">
+                </div>
+                <div class="smalp-div">
+                    <P class="mutual">
+                        12 mutual friends
+                    </P>
+                </div>
+
+
+            </div>
+            <div>
+                <button class="add">
+                    Add Friend
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="panda-box">
+            <div>
+                <img class="image-x" src="thumbnails/6338f7ae58c05.jpg">
+            </div>
+            <div>
+                <P class="aang">
+                    Jengan
+                </P>
+            </div>
+            <div>
+                <div class="smalp-div">
+                    <img class="small-pict" src="thumbnails/615c371c61b81.jpg">
+                </div>
+                <div class="smalp-div">
+                    <P class="mutual">
+                        12 mutual friends
+                    </P>
+                </div>
+
+
+            </div>
+            <div>
+                <button class="add">
+                    Add Friend
+                </button>
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>

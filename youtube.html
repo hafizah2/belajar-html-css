@@ -2,82 +2,44 @@
 <html>
 
 <head>
-    <title>YouTube.com Clone</title>
+    <title>YouTube.com Clone by.sakdiah</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <style>
-        p {
-            font-family: Roboto, Arial;
-        }
 
-        .thumbnail {
-            width: 100%;
-
-        }
-
-        .video-title {
-            margin-top: 0;
-            width: 200px;
-            display: inline-block;
-            font-size: 14px;
-            font-weight: 540;
-            line-height: 20px;
-            margin-bottom: 9px;
-
-        }
-
-
-
-        .search-bar {
-            display: block;
-        }
-
-        .profil-picture {
-            width: 35px;
-            border-radius: 50px;
-
-
-        }
-
-        .video-info-grid {
-            display: grid;
-            grid-template-columns: 50px 1fr;
-        }
-
-
-
-        .thumbnail-row {
-            margin-bottom: 10px;
-        }
-
-        .marques {
-            font-size: 13px;
-            margin-top: 0;
-            margin-bottom: 3px;
-            color: gray;
-        }
-
-        .vid-stats {
-            font-size: 13px;
-            margin-top: 0;
-            margin-bottom: 0;
-            color: gray;
-        }
-
-        .video-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 16px;
-            row-gap: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
 </head>
 
 <body>
-    <input class="search-bar" type="text" placeholder="Search">
+    <div class="header">
+
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-btn">
+                <img class="search-icon" src="icons/search.svg">
+            </button>
+            <button class="voice-search-btn">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            </button>
+        </div>
+        <div class="right-section">
+            <img class="upload-icon" src="icons/upload.svg">
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+            <img class="notifications-icon" src="icons/notifications.svg">
+            <img class="chanel-profile-icon" src="chanel-profile/a-sky.jpg">
+        </div>
+
+    </div>
+
+
 
 
     <div class="video-grid">
@@ -85,25 +47,25 @@
         <div class="video-preview">
 
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                <img class="thumbnail" src="thumbnails/roses.webp">
             </div>
             <div>
 
                 <div class="video-info-grid">
 
                     <div class="channel-pict">
-                        <img class="profil-picture" src="chanel-profile/channel-1.jpeg">
+                        <img class="profil-picture" src="chanel-profile/the-c.jpg">
                     </div>
                     <div class="video-info">
                         <p class="video-title">
 
-                            Talking Tech and AI with Google CEO Sundar Pichai!
+                            The Chainsmokers - Roses (Lyric Video) ft. ROZES
                         </p>
                         <P class="marques">
-                            Marques Brownlee
+                            The Chainsmokers
                         </P>
                         <p class="vid-stats">
-                            3.4M views &#183; 6 months ago
+                            169M views &#183; 7 years ago
                         </p>
                     </div>
 
@@ -122,24 +84,24 @@
         <div class="video-preview">
 
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                <img class="thumbnail" src="thumbnails/all-we-know.webp">
             </div>
             <div>
 
                 <div class="video-info-grid">
                     <div class="channel-pict">
-                        <img class="profil-picture" src="chanel-profile/channel-1.jpeg">
+                        <img class="profil-picture" src="chanel-profile/the-c.jpg">
                     </div>
                     <div class="video-info">
                         <p class="video-title">
 
-                            Try Not To Laugh Challenge #9
+                            The Chainsmokers - All We Know (Audio) ft. Phoebe Ryan
                         </p>
                         <P class="marques">
-                            Markiplier
+                            The Chainsmokers
                         </P>
                         <p class="vid-stats">
-                            19M views &#183; 4 years ago
+                            340M views &#183; 6 years ago
                         </p>
                     </div>
 
@@ -158,25 +120,25 @@
         <div class="video-preview">
 
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                <img class="thumbnail" src="thumbnails/ready.webp">
             </div>
             <div>
 
                 <div class="video-info-grid">
 
                     <div class="channel-pict">
-                        <img class="profil-picture" src="chanel-profile/channel-1.jpeg">
+                        <img class="profil-picture" src="chanel-profile/ready.jpg">
                     </div>
                     <div class="video-info">
                         <p class="video-title">
 
-                            Talking Tech and AI with Google CEO Sundar Pichai!
+                            ready to run - one direction // lyrics
                         </p>
                         <P class="marques">
-                            Marques Brownlee
+                            ourmemoriestonight
                         </P>
                         <p class="vid-stats">
-                            3.4M views &#183; 6 months ago
+                            1M views &#183; 4 years ago
                         </p>
                     </div>
 
@@ -195,25 +157,26 @@
         <div class="video-preview">
 
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                <img class="thumbnail" src="thumbnails/a-sky-full-of-star.webp">
             </div>
             <div>
 
                 <div class="video-info-grid">
 
                     <div class="channel-pict">
-                        <img class="profil-picture" src="chanel-profile/channel-1.jpeg">
+                        <img class="profil-picture" src="chanel-profile/a-sky.jpg">
                     </div>
                     <div class="video-info">
                         <p class="video-title">
 
-                            Try Not To Laugh Challenge #9
+                            Coldplay - A Sky Full Of Stars (Lyrics)
+
                         </p>
                         <P class="marques">
-                            Markiplier
+                            AB Music
                         </P>
                         <p class="vid-stats">
-                            19M views &#183; 4 years ago
+                            26M views &#183; 3 years ago
                         </p>
                     </div>
 
@@ -232,25 +195,26 @@
         <div class="video-preview">
 
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                <img class="thumbnail" src="thumbnails/middle.webp">
             </div>
             <div>
 
                 <div class="video-info-grid">
 
                     <div class="channel-pict">
-                        <img class="profil-picture" src="chanel-profile/channel-1.jpeg">
+                        <img class="profil-picture" src="chanel-profile/dj-snake.jpg">
                     </div>
                     <div class="video-info">
                         <p class="video-title">
 
-                            Talking Tech and AI with Google CEO Sundar Pichai!
+                            DJ Snake ft. Bipolar Sunshine - Middle (Official Audio)
+
                         </p>
                         <P class="marques">
-                            Marques Brownlee
+                            DJ Snake
                         </P>
                         <p class="vid-stats">
-                            3.4M views &#183; 6 months ago
+                            350M views &#183; 7 years ago
                         </p>
                     </div>
 
@@ -269,25 +233,26 @@
         <div class="video-preview">
 
             <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                <img class="thumbnail" src="thumbnails/paris.webp">
             </div>
             <div>
 
                 <div class="video-info-grid">
 
                     <div class="channel-pict">
-                        <img class="profil-picture" src="chanel-profile/channel-1.jpeg">
+                        <img class="profil-picture" src="chanel-profile/the-c.jpg">
                     </div>
                     <div class="video-info">
                         <p class="video-title">
 
-                            Try Not To Laugh Challenge #9
+                            The Chainsmokers - Paris (Official Lyric Video)
+
                         </p>
                         <P class="marques">
-                            Markiplier
+                            The Chainsmokers
                         </P>
                         <p class="vid-stats">
-                            19M views &#183; 4 years ago
+                            402M views &#183; 6 years ago
                         </p>
                     </div>
 

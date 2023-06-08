@@ -33,6 +33,7 @@
 
 .thumbnail-row {
     margin-bottom: 10px;
+    position: relative;
 }
 
 .marques {
@@ -54,4 +55,17 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+.video-time {
+    background-color: rgb(9, 9, 9);
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    font-family: Roboto, arial;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px 6px;
+    border-radius: 4px;
 }

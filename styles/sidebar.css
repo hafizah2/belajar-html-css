@@ -3,7 +3,29 @@
     background-color: white;
     left: 0;
     bottom: 0;
-    top: 70px;
-    width: 86px;
-    border-right: 1px rgb(249, 249, 249) solid;
+    top: 55px;
+    width: 72px;
+
+
+}
+
+.sidebar-link {
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.sidebar-link :hover {
+    background-color: rgb(210, 210, 210);
+
+
+}
+
+.sidebar-link img {
+    height: 24px;
+
 }

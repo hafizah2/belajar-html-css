@@ -4,8 +4,8 @@
     left: 0;
     bottom: 0;
     top: 55px;
-    width: 72px;
-
+    width: 78px;
+    z-index: 200;
 
 }
 
@@ -14,12 +14,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 
 
 
 }
 
-.sidebar-link :hover {
+.sidebar-link:hover {
     background-color: rgb(210, 210, 210);
 
 
@@ -28,4 +30,9 @@
 .sidebar-link img {
     height: 24px;
 
+}
+
+.sidebar-link div {
+    font-size: 10px;
+    font-family: Roboto, Arial;
 }

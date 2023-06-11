@@ -11,6 +11,7 @@
     font-weight: 540;
     line-height: 20px;
     margin-bottom: 9px;
+    color: black;
 
 }
 
@@ -41,6 +42,7 @@
     margin-top: 0;
     margin-bottom: 3px;
     color: gray;
+    text-decoration: none;
 }
 
 .vid-stats {
